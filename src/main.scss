@@ -1,7 +1,11 @@
-html * {
-  outline: 1px solid red;
+.border
+{
+  border:2px dotted green;
+  padding: 40px;
+  margin: 50px;
+  max-width: 400px;
+  margin:0 auto;
 }
-
 .h1
 {
   text-align: center;
@@ -17,4 +21,8 @@ p
 {
   text-align: right;
   font-style: italic;
+}
+.sasha
+{
+  font-weight: bold;
 }
