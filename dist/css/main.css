@@ -1,4 +1,17 @@
 html * {
   outline: 1px solid red; }
 
+.h1 {
+  text-align: center;
+  font-weight: bold;
+  color: green; }
+
+p {
+  text-align: center;
+  font-size: 14px; }
+
+.name {
+  text-align: right;
+  font-style: italic; }
+
 /*# sourceMappingURL=maps/main.css.map */
