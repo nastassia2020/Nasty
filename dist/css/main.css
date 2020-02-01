@@ -1,4 +1,14 @@
-html * {
-  outline: 1px solid red; }
+.background {
+  width: 100%;
+  height: 100%; }
+
+.image {
+  max-width: 500px;
+  max-height: 400px; }
+
+.img_background {
+  background-image: url("../img/dwoilp3BVjlE.jpg");
+  width: 200px;
+  height: 300px; }
 
 /*# sourceMappingURL=maps/main.css.map */
