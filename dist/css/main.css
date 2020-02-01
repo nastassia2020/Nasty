@@ -11,4 +11,24 @@
   width: 200px;
   height: 300px; }
 
+.bg-cat {
+  width: 494px;
+  height: 555px;
+  background: url("../img/css_sprites.png") -630px -10px; }
+
+.bg-shark {
+  width: 256px;
+  height: 256px;
+  background: url("../img/css_sprites.png") -530px -604px; }
+
+.bg-smile {
+  width: 600px;
+  height: 574px;
+  background: url("../img/css_sprites.png") -10px -10px; }
+
+.bg-diamond {
+  width: 500px;
+  height: 338px;
+  background: url("../img/css_sprites.png") -10px -604px; }
+
 /*# sourceMappingURL=maps/main.css.map */
