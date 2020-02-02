@@ -1,3 +1,29 @@
-html * {
-  outline: 1px solid red;
+.container{
+	width: 100%;
+	margin:0 auto;
+}
+.name{
+text-decoration: underline;
+margin-left: 35%;
+color:#ffa500;
+font-weight: normal;
+}
+.people_name{
+	color:#ffa500;
+}
+.for_image{
+	border-radius: 300px;
+	border: 5px solid #ffa500;
+}
+.for_p{
+	max-width:250px;
+	padding: 20px;
+}
+ .for_h2{
+	padding: 10px 30px;
+}
+.for_div{
+	display: inline-block;
+	width: 30%;
+	margin: 10px;
 }
