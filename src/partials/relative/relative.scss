@@ -1,6 +1,7 @@
 .first,
 .second,
-.third{
+.third,
+.four{
     display: inline-block;
     height: 100px;
     width: 200px;
@@ -10,7 +11,17 @@
 }
 .second{
     background-color: hotpink;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    z-index: 5;
 }
 .third{
     background-color: indigo;
+    position: relative;
+    z-index: 2;
+}
+.four{
+    background-color: mediumseagreen;
+    position: relative;
 }

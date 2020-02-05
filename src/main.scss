@@ -1,4 +1,5 @@
 @import"./partials/fixed/fixed.scss";
+@import "./partials/absolute/absolute.scss";
 
 .big-div{
   height: 200vh;
@@ -6,4 +7,4 @@
   margin-top: 105px;
 }
 
-@import"./partials/relative/relative.scss"
+@import"./partials/relative/relative.scss";
