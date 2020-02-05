@@ -1,12 +1,14 @@
 .fixed {
   position: fixed;
-  top: 20px;
+  top: 0;
   left: 0;
   background-color: green;
-  height: 100px; }
+  height: 100px;
+  width: 100%; }
 
 .big-div {
   height: 200vh;
-  background-color: grey; }
+  background-color: grey;
+  margin-top: 105px; }
 
 /*# sourceMappingURL=maps/main.css.map */
