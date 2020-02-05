@@ -11,4 +11,20 @@
   background-color: grey;
   margin-top: 105px; }
 
+.first,
+.second,
+.third {
+  display: inline-block;
+  height: 100px;
+  width: 200px; }
+
+.first {
+  background-color: mediumblue; }
+
+.second {
+  background-color: hotpink; }
+
+.third {
+  background-color: indigo; }
+
 /*# sourceMappingURL=maps/main.css.map */
