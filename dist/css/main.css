@@ -1,3 +1,12 @@
-@i;
+.fixed {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  background-color: green;
+  height: 100px; }
+
+.big-div {
+  height: 200vh;
+  background-color: grey; }
 
 /*# sourceMappingURL=maps/main.css.map */

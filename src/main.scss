@@ -1,1 +1,6 @@
-@import"./partials/fixed.scss";
+@import"./partials/fixed/fixed.scss";
+
+.big-div{
+  height: 200vh;
+  background-color: grey;
+}
