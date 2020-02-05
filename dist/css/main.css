@@ -11,7 +11,8 @@
   height: 300px;
   background-color: mediumvioletred;
   border: 2px solid black;
-  position: relative; }
+  position: relative;
+  margin: 30px; }
 
 .unread {
   position: absolute;
