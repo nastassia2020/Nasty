@@ -1,4 +1,21 @@
-html * {
-  outline: 1px solid red; }
+.container {
+  margin: 0 auto;
+  max-width: 33%;
+  padding: 10px; }
+
+.name {
+  margin-left: 30px; }
+
+.for_span {
+  color: orange; }
+
+.image {
+  border-radius: 300px;
+  width: 200px;
+  height: 200px;
+  border: 3px solid orange; }
+
+.text {
+  max-width: 35%; }
 
 /*# sourceMappingURL=maps/main.css.map */
