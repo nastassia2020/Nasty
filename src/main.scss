@@ -1,3 +1,33 @@
-html * {
-  outline: 1px solid red;
+ul{
+	width: 180px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+}
+li{
+	position: absolute;
+	display: none;
+	margin-left: 165px;
+	margin-top: -2px;
+}
+li a{
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	color: green;
+	border: 1px solid grey;
+	background-color: honeydew;
+	border-bottom: none;
+}
+li a:hover{
+	color: orange;
+	background-color: peachpuff;
+}
+li:hover ul{
+	display: block;
+}
+.brd{
+	border-bottom: 1px solid grey;
 }
