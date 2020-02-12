@@ -45,3 +45,18 @@ div ul ul ul {
 }
 li > a:after { content:  ' +'; }
 li > a:only-child:after { content: ''; }
+
+.big{
+	width: 100px;
+	height: 100px;
+	background-color: purple;
+	position: absolute;
+	margin: 10px 250px 0 0;
+}
+.small{
+	position: absolute;
+	padding-left: 10px;
+	padding-top: 10px;
+	background-color: black;
+	display: inline-block;
+}
