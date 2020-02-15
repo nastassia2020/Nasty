@@ -1,4 +1,8 @@
+@font-face {
+  font-family: holla;
+  src: url("../fonts/holla-hearth-demo.zip"); }
+
 html * {
-  outline: 1px solid red; }
+  font-family: holla; }
 
 /*# sourceMappingURL=maps/main.css.map */

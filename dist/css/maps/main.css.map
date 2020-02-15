@@ -1,1 +1,1 @@
-{"version":3,"file":"../main.css","sources":["main.scss"],"sourcesContent":["html * {\r\n  outline: 1px solid red;\r\n}\r\n"],"names":[],"mappings":"AAAA,AAAA,IAAI,CAAC,CAAC,CAAC;EACL,OAAO,EAAE,aAAa,GACvB"}
+{"version":3,"file":"../main.css","sources":["main.scss"],"sourcesContent":["@font-face{\r\n  font-family: holla;\r\n  src: url('../fonts/holla-hearth-demo.zip');\r\n}\r\n\r\nhtml * {\r\n  font-family: holla;\r\n}"],"names":[],"mappings":"AAAA,UAAU;EACR,WAAW,EAAE,KAAK;EAClB,GAAG,EAAE,qCAAqC;;AAG5C,AAAA,IAAI,CAAC,CAAC,CAAC;EACL,WAAW,EAAE,KAAK,GACnB"}
