@@ -1,8 +1,9 @@
 @font-face{
-  font-family: holla;
-  src: url('../fonts/holla-hearth-demo.zip');
+  font-family: "holla";
+  src: url('../fonts/HollaHearthDemoRegular.ttf')
 }
 
 html * {
-  font-family: holla;
+  font-family: "holla";
+  font-size: 40px;
 }
