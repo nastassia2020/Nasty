@@ -29,11 +29,11 @@
 	float: right;
 	margin-right: 15%;
 }
-a{
+.for_href a{
 	text-decoration: none;
 	color:#ffa500;
 }
-a:hover{
+.for_href a:hover{
 	text-decoration: underline;
 }
 .name{
@@ -75,4 +75,46 @@ font-weight: normal;
 	width:100%; 
 	border:1px solid #e1e0e0; 
 	padding:15px 20px;
+}
+
+.list{
+	margin: 600px 0;
+	background-color: palevioletred;
+}
+.list ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	position: relative;
+}
+.list ul li{
+	margin: 0 -7px 0 0;
+	display: inline-block;
+	background-color: palevioletred;
+}
+.list a{
+	display: block;
+	color: black;
+	font-size: 20px;
+	padding:0 10px;
+	text-decoration: none;
+	line-height: 60px;
+}
+.list a:hover{
+	background-color: purple;
+}
+.list ul ul{
+	display: none;
+	top: 100%;
+	left: 100%;
+	position: absolute;
+}
+.list ul li:hover > ul{
+	display:inherit;
+}
+.list ul ul li{
+	min-width:170;
+	display:list-item;
+	float:none;
+	position: relative;
 }
