@@ -1,4 +1,39 @@
-html * {
-  outline: 1px solid red; }
+.container {
+  max-width: 1400px; }
+
+.main {
+  max-width: 70%;
+  margin: 0 auto; }
+
+.header {
+  background-color: #989898;
+  font-size: 18px;
+  top: 30px; }
+
+.header ul {
+  list-style: none; }
+
+.header ul li {
+  display: inline-block;
+  padding: 10px; }
+
+.header a {
+  text-decoration: none;
+  color: black; }
+
+.header li a:hover {
+  color: #434343; }
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 4px solid red; }
+
+.image {
+  font-size: 0; }
+
+.description {
+  background-color: #dcdcdc;
+  height: 250px; }
 
 /*# sourceMappingURL=maps/main.css.map */
