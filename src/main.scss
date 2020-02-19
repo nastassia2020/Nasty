@@ -106,7 +106,6 @@ font-weight: normal;
 .list ul ul{
 	display: none;
 	top: 100%;
-	left: 100%;
 	position: absolute;
 }
 .list ul li:hover > ul{
@@ -117,4 +116,9 @@ font-weight: normal;
 	display:list-item;
 	float:none;
 	position: relative;
+}
+.list ul ul ul{
+	position: absolute;
+	top:0;
+	left:100%;
 }
