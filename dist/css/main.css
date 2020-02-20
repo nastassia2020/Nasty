@@ -21,8 +21,8 @@
   text-decoration: none;
   color: black; }
 
-.header li a:hover {
-  color: #434343; }
+.header li:hover {
+  background-color: white; }
 
 .slider {
   display: flex;
@@ -33,7 +33,60 @@
   font-size: 0; }
 
 .description {
-  background-color: #dcdcdc;
+  background-color: gainsboro;
   height: 250px; }
+
+.description h2 {
+  color: red;
+  font-size: 40px;
+  padding: 10px 15px; }
+
+.description p {
+  font-size: 20px;
+  padding: 0 5px; }
+
+.main_news {
+  width: 100%; }
+
+.h {
+  font-size: 30px;
+  padding-left: 30px; }
+
+.line {
+  border-bottom: 2px solid black;
+  font-size: 0;
+  width: 80%; }
+
+.underline {
+  display: flex;
+  flex-direction: row; }
+
+.main_news ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none; }
+
+.main_news li {
+  max-width: 20%;
+  padding-right: 10px; }
+
+.second_block {
+  display: flex;
+  flex-direction: row; }
+
+.last_news ul {
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #bfbfc0; }
+
+.newsfeed ul {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  color: #333333; }
 
 /*# sourceMappingURL=maps/main.css.map */
