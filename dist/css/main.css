@@ -1,5 +1,8 @@
 .container {
-  max-width: 100%; }
+  max-width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 10px; }
 
 .main {
   max-width: 70%;
@@ -99,5 +102,9 @@
 
 .color .line {
   border-color: blue; }
+
+.footer {
+  position: absolute;
+  bottom: 0; }
 
 /*# sourceMappingURL=maps/main.css.map */
