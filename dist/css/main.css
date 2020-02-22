@@ -1,5 +1,5 @@
 .container {
-  max-width: 1400px; }
+  max-width: 100%; }
 
 .main {
   max-width: 70%;
@@ -27,18 +27,19 @@
 .slider {
   display: flex;
   flex-direction: row;
-  border-bottom: 4px solid red; }
+  border-bottom: 4px solid red;
+  max-width: 620px; }
 
 .image {
   font-size: 0; }
 
 .description {
-  background-color: gainsboro;
+  background-color: #f7f9fa;
   height: 250px; }
 
 .description h2 {
   color: red;
-  font-size: 40px;
+  font-size: 30px;
   padding: 10px 15px; }
 
 .description p {
@@ -48,9 +49,13 @@
 .main_news {
   width: 100%; }
 
+.main_news p {
+  max-width: 142px; }
+
 .h {
   font-size: 30px;
-  padding-left: 30px; }
+  padding-left: 30px;
+  white-space: nowrap; }
 
 .line {
   border-bottom: 2px solid black;
@@ -88,5 +93,11 @@
   font-weight: 400;
   letter-spacing: -0.025em;
   color: #333333; }
+
+.color .h {
+  color: red; }
+
+.color .line {
+  border-color: blue; }
 
 /*# sourceMappingURL=maps/main.css.map */
