@@ -1,8 +1,15 @@
+.content{
+	min-height: 100vh;
+	position: relative;
+
+}
+.all{
+	display: flex;
+	flex-direction: row;
+}
 .container{
   max-width: 100%;
-  min-height: 100vh;
-  position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 90px;
 }
 .main{
   max-width: 70%;
@@ -44,7 +51,7 @@
 }
 .description h2{
 	color: red;
-	font-size: 30px;
+	font-size: 28px;
 	padding:10px 15px;
 }
 .description p{
@@ -107,8 +114,46 @@
 .color .line {
 	border-color: blue;
 }
-.footer{
-	position: absolute;
-	bottom: 0;
+.video_column{
+	display: flex;
+	flex-direction: row;
 }
+.video_column p{
+	height: 90px;
+}
+.video p{
+font-size: 14px;
+line-height: 20px;
+font-weight: 700;
+letter-spacing: -0.01em;
+color: #333333;
+max-width: 138px;
+}
+.more{
+	border-bottom: 3px solid black;
+	height: 20px;
+	width: 100%;
+}
+.interesting_column{
+	display: flex;
+	flex-direction: row;
+}
+.interesting_column p{
+height: 68px;
+}
+.interesting p{
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
+	letter-spacing: -0.01em;
+	color: #333333;
+	max-width: 138px;
+	}
 
+.footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+}
