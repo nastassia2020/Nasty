@@ -11,7 +11,7 @@
 	overflow:hidden;
 	height: 0;
 	padding: 0;
-	transition: all 0.5s ease;
+	transition: all 0.3s ease;
 }
 .bottom:hover+.line{
 	border: 2px solid black;
@@ -19,5 +19,37 @@
 	overflow:hidden;
 	height: 20px;
 	padding: 5px 10px;
-	transition: all 0.5s ease;
+	transition: all 0.3s ease;
+}
+
+.hexahedron{
+	position: relative;
+	width: 600px;
+	height: 600px;
+	margin:300px;
+	border:2px solid blue;
+}
+.rectangle1{
+	position:absolute;
+	width: 100%;
+	height: 58%;
+	border-left: 3px solid red;
+	border-right:3px solid red;
+	transform: rotate(60deg);
+}
+.rectangle2{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	border-left: 3px solid green;
+	border-right:3px solid green;
+	transform: rotate(-60deg);
+}
+.rectangle3{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	border-left: 3px solid yellow;
+	border-right:3px solid yellow;
+	transform: rotate(-60deg);
 }
