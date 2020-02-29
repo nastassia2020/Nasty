@@ -14,7 +14,7 @@
   padding-bottom: 90px; }
 
 .main {
-  max-width: 70%;
+  width: 100%;
   margin: 0 auto; }
 
 .header {
@@ -111,9 +111,9 @@
   line-height: 20px;
   letter-spacing: -0.01em;
   font-size: 14px;
-  line-height: 20px;
   font-weight: 700;
-  list-style: square; }
+  list-style: square;
+  padding-left: 10px; }
 
 .last_news a {
   text-decoration: none;
