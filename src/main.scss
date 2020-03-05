@@ -7,56 +7,63 @@
 	overflow: hidden;
 }
 .literose{
-	width: 550px;
+	width: 100%;
 	height: 200%;
 	background-color: deeppink;
 	position: relative;
-	border-radius: 0 80% 100% 0;
-	margin-top: -250px;
+	border-radius: 0 80% 110% 0;
+	margin-top: -150px;
+	margin-left: -730px;
 }
 .violet{
-	width: 500px;
-	height: 100%;
+	width: 94%;
+	height: 90%;
 	background-color: midnightblue;
 	position: absolute;
-	border-radius: 0 80% 100% 0;
+	border-radius: 0 75% 110% 0;
+	margin-bottom: 100px;
+	margin-right: 20px;
 }
 .rose{
-	width: 90%;
-	height: 60%;
+	width: 40%;
+	height: 55%;
 	background-color: crimson;
 	position: absolute;
 	border-radius: 100%;
-	margin-left: -10%;
-	margin-top: 50px;
+	margin-top: 70px;
+	margin-left: 650px;
 }
 .blue{
 	background-color: paleturquoise;
-	width: 90%;
+	width: 87%;
 	height: 90%;
 	position: absolute;
 	border-radius: 100%;
+	margin-left: 20px;
+	margin-top: -10px;
 }
 .green{
-	width: 90%;
-	height: 90%;
+	width: 85%;
+	height: 85%;
 	background-color: darkgreen;
 	position: absolute;
 	border-radius: 100%;
+	margin-left: 25px;
 }
 .rose2{
-	width: 85%;
-	height: 85%;
+	width: 80%;
+	height: 80%;
 	background-color: crimson;
 	position: absolute;
 	border-radius: 100%;
+	margin-left: 40px;
 }
 .orange{
-	width: 50%;
-	height: 50%;
+	width: 70%;
+	height: 70%;
 	background-color: orange;
 	position: absolute;
 	border-radius: 100%;
-	margin-top: 100px;
-	margin-left: 100px;
+	margin-top: 20px;
+	margin-left: 50px;
 }
