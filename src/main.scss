@@ -68,18 +68,22 @@
 	margin-top: 20px;
 	margin-left: 50px;
 }
-.menu{
-	width: 100px;
-	margin-right: 0;
+.menu {
+	margin-right: -550px;
+	margin-left: auto;
+	margin-top: 20px;
 }
 .menu li{
 	display: inline-block;
+	margin-left: 20px;
 }
 .menu li a{
 	text-decoration: none;
 	list-style: none;
 	color: white;
-	margin-left: 20px;
+}
+.menu a:hover{
+	text-decoration: underline;
 }
 .mini{
 	width: 500px;
