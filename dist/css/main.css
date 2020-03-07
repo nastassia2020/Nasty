@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'icons';
+  src: url("../fonts/sap-icofonts.woff"); }
+
 .accordeon {
   width: 200px;
   margin-top: 20px;
@@ -9,11 +13,36 @@
 .item {
   border: 2px solid green;
   margin: 0;
-  padding: 10px 40px;
+  display: block;
+  padding: 10px 25px;
   cursor: pointer;
-  width: 200px; }
+  width: 150px;
+  position: relative; }
 
 .description {
-  border: 1px solid green; }
+  border: 1px solid green;
+  width: 200px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease; }
+
+.input:checked ~ .description {
+  border: 1px solid green;
+  width: 200px;
+  max-height: 300px;
+  overflow: hidden;
+  transition: max-height 0.2s ease; }
+
+.item:after {
+  content: '\E00D';
+  display: block;
+  font-family: 'icons';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%); }
+
+.input:checked ~ .item:after {
+  content: '\E00F'; }
 
 /*# sourceMappingURL=maps/main.css.map */
