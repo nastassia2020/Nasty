@@ -1,4 +1,19 @@
-html * {
-  outline: 1px solid red; }
+.accordeon {
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 100px; }
+
+.input {
+  display: none; }
+
+.item {
+  border: 2px solid green;
+  margin: 0;
+  padding: 10px 40px;
+  cursor: pointer;
+  width: 200px; }
+
+.description {
+  border: 1px solid green; }
 
 /*# sourceMappingURL=maps/main.css.map */
