@@ -7,7 +7,7 @@
   margin-top: 20px;
   margin-left: 100px; }
 
-.input {
+input {
   display: none; }
 
 .item {
@@ -26,10 +26,12 @@
   overflow: hidden;
   transition: max-height 0.2s ease; }
 
-.input:checked ~ .description {
+.input1:checked ~ .description.input1,
+.input2:checked ~ .description.input2,
+.input3:checked ~ .description.input3 {
   border: 1px solid green;
   width: 200px;
-  max-height: 300px;
+  max-height: 100vh;
   overflow: hidden;
   transition: max-height 0.5s ease; }
 
@@ -42,7 +44,9 @@
   right: 20px;
   transform: translateY(-50%); }
 
-.input:checked ~ .item:after {
+.input1:checked ~ .item.input1:after,
+.input2:checked ~ .item.input2:after,
+.input3:checked ~ .item.input3:after {
   content: '\E00F'; }
 
 /*# sourceMappingURL=maps/main.css.map */
