@@ -127,3 +127,28 @@ body {
 	font-size: 0.9em;
 	color:#7e7f84;
 }
+.products{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.popular_products>h2{
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #67686d;
+	font-size: 1.4em;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.article_products{
+	width: 24%;
+	margin-left: 15px;
+}
+.article_products img{
+	max-width: 250px;
+	max-height: 300px;
+}
+.prod{
+	max-width: 250px;
+	margin-top: 20px;
+}
