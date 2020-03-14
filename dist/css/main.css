@@ -1,4 +1,7 @@
-html * {
-  outline: 1px solid red; }
+.content {
+  border: 2px solid green;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=maps/main.css.map */

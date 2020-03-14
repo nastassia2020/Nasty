@@ -1,1 +1,1 @@
-{"version":3,"file":"../main.css","sources":["main.scss"],"sourcesContent":["html * {\r\n  outline: 1px solid red;\r\n}\r\n"],"names":[],"mappings":"AAAA,AAAA,IAAI,CAAC,CAAC,CAAC;EACL,OAAO,EAAE,aAAa,GACvB"}
+{"version":3,"file":"../main.css","sources":["main.scss"],"sourcesContent":[".content{\r\n  border:2px solid green;\r\n  width: 500px;\r\n  height: 500px;\r\n  margin: 0 auto;\r\n}\r\n"],"names":[],"mappings":"AAAA,AAAA,QAAQ,CAAA;EACN,MAAM,EAAC,eAAe;EACtB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,MAAM,GACf"}
