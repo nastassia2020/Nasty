@@ -9,6 +9,30 @@
     <title>ProjectX</title>
   </head>
   <body>
+    <input  id="open" type="radio" name="modal" class="radio-btn">
+    <input  id="close" type="radio" name="modal" class="radio-btn">
+    <label for="open"  class="radio-open" class="radio-btn">
+      Registration
+    </label>
+    <div class="modal-window">
+      <div class="modal-content">
+        <form>
+          Имя: <input type = "text"  name = "firstname" value =  "Введите имя"> <br> <br>
+          Фамилия: <input type = "text" name = "lastname"value =  "Введите фамилию"> <br> <br>
+          Мужчина <input  type = "radio" name = "sex"value =  "male" checked>
+          Женщина <input type = "radio" name = "sex"value =  "female"> <br> <br>
+          О себе: <br>
+          <input type = "checkbox" name = "type1" value = "low">Меньше 18<br>
+          <input type = "checkbox" name = "type2" value = "2old">От 18 до 35<br>
+          <input type = "checkbox" name = "type3" value = "high">Больше 35<br>
+          <input type = "submit" name = "submit" value = "отправить">
+        </form>
+        <label for="close"  class="radio-close" data-tips="close_modal_window">
+          X
+        </label>
+      </div>
+    </div>
+
     <div class="conteiner">
       <header>
         <div class="header">
