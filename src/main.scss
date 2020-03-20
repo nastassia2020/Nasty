@@ -248,3 +248,37 @@ body {
 .plus{
 	display: inline-block;
 }
+.about{
+	margin-bottom: 60px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.about-article{
+	width: 48%;
+}
+.about-map{
+	max-width: 35%;
+}
+.about-article h2{
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-bottom: 30px;
+	color: #67686d;
+}
+.about-article p{
+	font-size: 0.9em;
+	font-style: italic;
+	margin-bottom: 25px;
+}
+/*.map{
+	position: relative;
+	padding-bottom: 75%;
+	height: 0;
+	overflow: hidden;
+}
+.map iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
