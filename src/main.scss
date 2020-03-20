@@ -11,9 +11,11 @@ body {
 	transform: translateY(-50%);
 	width: 20px;
 	height: 100px;
-	background-color: lightgrey;
+	background-color: orchid;
 	writing-mode: vertical-rl;
 	color: black;
+	cursor: pointer;
+	padding: 5px;
   }
 .modal-window{
 	display: none;
@@ -286,3 +288,33 @@ body {
 	top: 0;
 	left: 0;
 }*/
+.subscribe{
+	background: darkorchid;
+	color: #fff;
+	padding: 30px 0;
+}
+.sign{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.sign h2{
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+.email-imput{
+	text-transform: uppercase;
+	font-size: 0.9em;
+	width: 200px;
+	padding: 7px 20px;
+	border:none;
+}
+.submit-imput{
+	text-transform: uppercase;
+	background: orchid;
+	color: white;
+	border: none;
+	padding: 7px 20px;
+	cursor: pointer;
+	font-size: 0.9em;
+}
