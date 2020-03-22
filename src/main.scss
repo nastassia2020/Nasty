@@ -27,6 +27,7 @@ body {
 	background: rgba($color: #4e4c4c, $alpha: 0.7);
 	justify-content: center;
 	align-items: center;
+	z-index: 2;
   }
 #open:checked ~ .modal-window {
 	display: flex;
@@ -97,7 +98,8 @@ body {
 	margin-right: 5px;
 }
 .contact{
-	padding-top: 10px;
+	display: flex;
+	align-items: center;
 }
 .basket{
 	border: 1px solid #eee;
@@ -208,8 +210,8 @@ body {
 	margin-top: 30px;
 }
 .article_products{
-	width: 24%;
-	margin-left: 15px;
+	max-width: 25%;
+	box-sizing: border-box;
 }
 .article-img{
 	max-width: 250px;
