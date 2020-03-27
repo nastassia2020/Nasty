@@ -126,6 +126,39 @@ body {
 	margin-right: 30px;
 	font-size: 0.9em;
 }
+.input1,
+.input2{
+	display: none;	
+}
+.radio{
+	position: relative;
+}
+.firstradio,
+.secondradio{
+	position: absolute;
+	bottom:0;
+	left:0;
+}
+.description-formen{
+	max-width: 0;
+	max-height: 0;
+	overflow: hidden;
+	top:20px;
+	transition: max-height 0.2s ease;
+}
+.firstradio a:checked ~ .description-formen{
+	max-width: 100px;
+	max-height: 100vh;
+	overflow: hidden;
+	top:20px;
+	transition: max-height 0.5s ease;
+}
+.firstradio a:checked ~ .secondradio{
+	display: none;
+}
+.secondradio a:checked ~ .description-formen{
+	display: none;
+}
 .menu li a{
 	text-decoration: none;
 	color: #7e7f84;
