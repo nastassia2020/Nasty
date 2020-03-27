@@ -126,38 +126,32 @@ body {
 	margin-right: 30px;
 	font-size: 0.9em;
 }
-.input1,
-.input2{
-	display: none;	
-}
-.radio{
+.list{
 	position: relative;
+	z-index: 2;
 }
-.firstradio,
-.secondradio{
-	position: absolute;
-	bottom:0;
-	left:0;
+.list label{
+	color: #7e7f84;
+}
+.list label:hover{
+	color:violet;
+}
+.opener{
+	display: none;
 }
 .description-formen{
-	max-width: 0;
+	position: absolute;
+	max-width: 150;
 	max-height: 0;
 	overflow: hidden;
-	top:20px;
+	top:30px;
+	background: rgba($color: white, $alpha: 0.8);
+	line-height: 20px;
 	transition: max-height 0.2s ease;
 }
-.firstradio a:checked ~ .description-formen{
-	max-width: 100px;
+input:checked ~ .description-formen{
 	max-height: 100vh;
-	overflow: hidden;
-	top:20px;
-	transition: max-height 0.5s ease;
-}
-.firstradio a:checked ~ .secondradio{
-	display: none;
-}
-.secondradio a:checked ~ .description-formen{
-	display: none;
+	transition: max-height 0.2s ease;
 }
 .menu li a{
 	text-decoration: none;
