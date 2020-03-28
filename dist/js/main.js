@@ -80,8 +80,7 @@ function handleNumberClick(e) {
         values[index] += v;
         inputE1.value = values[index];
     }
-
-    
+  
 }
 
 numberContainer.addEventListener('click', handleNumberClick);
