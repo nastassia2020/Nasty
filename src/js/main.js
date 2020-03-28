@@ -81,7 +81,7 @@ function handleNumberClick(e) {
     }
 
     values[index] += e.target.dataset.value;
-    inputE1.value = value[index];
+    inputE1.value = values[index];
 }
 
 numberContainer.addEventListener('click', handleNumberClick);
