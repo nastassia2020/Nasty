@@ -67,4 +67,21 @@ function triangleReverse(lines, sign){
 }
 /*triangleReverse(5, '*'); */
 
-var 
+var value = [];
+var action;
+var index = 0;
+var inputE1 = document.querySelector('calculator-input');
+var numberContainer = document.querySelector('.number-button');
+
+function handleNumberClick(e) {
+    var v = e.target.dataset.value;
+
+    if (v) {
+
+    }
+
+    values[index] += e.target.dataset.value;
+    inputE1.value = value[index];
+}
+
+numberContainer.addEventListener('click', handleNumberClick);
