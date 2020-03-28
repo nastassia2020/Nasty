@@ -72,6 +72,7 @@ var action = '';
 var index = 0;
 var inputEl = document.querySelector('.calculator-input');
 var numberContainer = document.querySelector('.number');
+var actionContainer = document.querySelector('.action');
 
 function handleNumberClick(e) {
     var v = e.target.dataset.value;
@@ -83,4 +84,16 @@ function handleNumberClick(e) {
   
 }
 
+function handleActionClick(e) {
+    var v = e.target.dataset.value;
+
+    if (v) {
+        action = v;
+        index = 1;
+        inputEl.value = values[0] + actions + values[1];
+    }
+  
+}
+
 numberContainer.addEventListener('click', handleNumberClick);
+actionContainer.addEventListener('click', handleActionClick);
