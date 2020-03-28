@@ -79,7 +79,7 @@ function handleNumberClick(e) {
 
     if (v) {
         values[index] += v;
-        inputEl.value = values[0] + actions + values[1];
+        inputEl.value = values[0] + '' + actions + values[1];
     }
   
 }
