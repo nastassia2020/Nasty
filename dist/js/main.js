@@ -67,7 +67,7 @@ function triangleReverse(lines, sign){
 }
 /*triangleReverse(5, '*'); */
 
-var value = [];
+var value = ['', ''];
 var action;
 var index = 0;
 var inputE1 = document.querySelector('calculator-input');
