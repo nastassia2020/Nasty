@@ -65,4 +65,6 @@ function triangleReverse(lines, sign){
         console.log(strings[i]);
     }
 }
-triangleReverse(5, '*');
+/*triangleReverse(5, '*'); */
+
+var 
