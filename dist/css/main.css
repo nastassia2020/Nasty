@@ -12,7 +12,8 @@
   line-height: 20px;
   margin-left: 10px;
   margin: 10px;
-  border: 2px solid orchid; }
+  border: 2px solid orchid;
+  direction: rtl; }
 
 .buttons {
   display: flex;
@@ -30,7 +31,8 @@
   background: orchid;
   cursor: pointer;
   margin-bottom: 5px;
-  border-radius: 10%; }
+  border-radius: 10%;
+  outline: none; }
 
 .action {
   display: flex;
@@ -45,6 +47,8 @@
   background: violet;
   cursor: pointer;
   margin-bottom: 5px;
-  border-radius: 10%; }
+  border-radius: 10%;
+  outline: none;
+  width: 100%; }
 
 /*# sourceMappingURL=maps/main.css.map */

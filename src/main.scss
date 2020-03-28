@@ -13,6 +13,7 @@
   margin-left: 10px;
   margin: 10px;
   border: 2px solid orchid;
+  direction: rtl;
 }
 .buttons{
   display: flex;
@@ -31,6 +32,7 @@
   cursor: pointer;
   margin-bottom: 5px;
   border-radius: 10%;
+  outline: none;
 }
 .action{
   display: flex;
@@ -46,4 +48,6 @@
   cursor: pointer;
   margin-bottom: 5px;
   border-radius: 10%;
+  outline: none;
+  width: 100%;
 }
