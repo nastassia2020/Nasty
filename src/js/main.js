@@ -67,10 +67,10 @@ function triangleReverse(lines, sign){
 }
 /*triangleReverse(5, '*'); */
 
-var value = ['', ''];
+var values = ['', ''];
 var action;
 var index = 0;
-var inputE1 = document.querySelector('calculator-input');
+var inputEl = document.querySelector('.calculator-input');
 var numberContainer = document.querySelector('.number');
 
 function handleNumberClick(e) {
@@ -78,7 +78,7 @@ function handleNumberClick(e) {
 
     if (v) {
         values[index] += v;
-        inputE1.value = values[index];
+        inputEl.value = values[index];
     }
   
 }
