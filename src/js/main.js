@@ -79,7 +79,7 @@ function handleNumberClick(e) {
 
     if (v) {
         values[index] += v;
-        inputEl.value = values[0] + '' + actions + values[1];
+        inputEl.value = values[0] + '' + actions + '' + values[1];
     }
   
 }
@@ -87,10 +87,10 @@ function handleNumberClick(e) {
 function handleActionClick(e) {
     var v = e.target.dataset.value;
 
-    if (v) {
+    if (v && !action) {
         action = v;
         index = 1;
-        inputEl.value = values[0] + actions + values[1];
+        inputEl.value = values[0] + '' + actions + '' + values[1];
     }
   
 }
