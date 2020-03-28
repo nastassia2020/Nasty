@@ -87,7 +87,7 @@ function handleNumberClick(e) {
 function handleActionClick(e) {
     var v = e.target.dataset.value;
 
-    if (v && !action) {
+    if (v && !action && v !== "=") {
         action = v;
         index = 1;
         inputEl.value = values[0] + '' + action + '' + values[1];
