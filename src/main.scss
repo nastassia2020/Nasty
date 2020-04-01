@@ -357,3 +357,52 @@ input:checked ~ .description-formen{
 	cursor: pointer;
 	font-size: 0.9em;
 }
+.footer{
+  background: #2e2d34;
+  padding: 40px 0;
+}
+.footer h2{
+  color: white;
+  font-size: 1.4em;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.footer-conteiner{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer p{
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  color: white;
+}
+.footer h3{
+  font-size: 1em;
+}
+.footer h3 a{
+  color: orchid;
+  text-decoration:none;
+}
+.footer-email,
+.footer-text{
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-bottom: 15px;
+  padding: 7px 10px;
+  box-sizing: border-box;
+  border:none;
+}
+.footer-submit{
+  text-transform: uppercase;
+  font-size: 0.9em;
+  background: violet;
+  color: white;
+  border: none;
+  padding: 7px 20px;
+  cursor: pointer;
+}
