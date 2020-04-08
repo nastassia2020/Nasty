@@ -73,15 +73,39 @@ var index = 0;
 var inputEl = document.querySelector('.calculator-input');
 var numberContainer = document.querySelector('.number');
 var actionContainer = document.querySelector('.action');
+var result;
 
 function handleNumberClick(e) {
     var v = e.target.dataset.value;
 
-    if (v) {
-        values[index] += v;
+    if (v && !action && v !== '=') {
+        action = v;
+        index = 1;
         inputEl.value = values[0] + '' + action + '' + values[1];
+    } else if (values[0] && values [1]){
+        switch (action) {
+            case '+': {
+                result = parseInt(values[0]) + parseInt(values[1]);
+                break;
+            }
+            case '-':{
+                result = parseInt(values[0]) - parseInt(values[1]);
+                break;
+            }
+            case '*':{
+                result = parseInt(values[0]) * parseInt(values[1]);
+                break;
+            }
+            case '/':{
+                result = parseInt(values[0]) / parseInt(values[1]);
+                break;
+            }
+            default:{
+                
+            }
+        }
+        inputEl.value = result;
     }
-  
 }
 
 function handleActionClick(e) {
@@ -97,3 +121,26 @@ function handleActionClick(e) {
 
 numberContainer.addEventListener('click', handleNumberClick);
 actionContainer.addEventListener('click', handleActionClick);
+
+
+function sort (arr) {
+    for(var i = 0; i < arr.length; i++) {
+        for (var j = i + 1; j < arr.length; j++) {
+            var tmp;
+            if(arr[i] < arr[j]) {
+                tmp = arr[j];
+                arr[j] = arr[i];
+                arr[i] = tmp;
+            }
+        }
+    }
+    return arr;
+}
+
+var arr = [1, 2, 3, 4, 5];
+
+console.log(arr);
+
+var sortedArr = sort(arr);
+
+console.log(sortedArr);
