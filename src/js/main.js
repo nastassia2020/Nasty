@@ -155,14 +155,14 @@ function gooseFilter (birds) {
       for (var k = 0; k < geese.length; k++) {
         if(geese[k] === birds[j]) {
           isGoose = true;
+          break;
         }
       }
       if (!isGoose) {
-      result[i] = birds[j];
-      i++;
+        result.push(birds[j])
       }
     }
     return result;
     
     // return birds.filter(item => !geese.includes(item));
-  };
+  }
