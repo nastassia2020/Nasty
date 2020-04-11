@@ -6,7 +6,7 @@
     var isProcess = confirm ('Продолжить');
 } while (isProcess);*/
 
-function getValues (){
+/*function getValues (){
     var result=[];
     var i=0;
 
@@ -16,9 +16,9 @@ function getValues (){
     }while (isProcess);
 
     return result;
-}
+}*/
 
-function calculator(){
+/*function calculator(){
 do{
     var numbers = getValues();
     var res = numbers [0];
@@ -67,7 +67,7 @@ function triangleReverse(lines, sign){
 }
 /*triangleReverse(5, '*'); */
 
-var values = ['', ''];
+/*var values = ['', ''];
 var action = '';
 var index = 0;
 var inputEl = document.querySelector('.calculator-input');
@@ -143,4 +143,26 @@ console.log(arr);
 
 var sortedArr = sort(arr);
 
-console.log(sortedArr);
+console.log(sortedArr);*/
+
+function gooseFilter (birds) {
+    var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+    var i = 0;
+    var result = [];
+    
+    for (var j = 0; j < birds.length; j++) {
+      var isGoose = false;
+      for (var k = 0; k < geese.length; k++) {
+        if(geese[k] === birds[j]) {
+          isGoose = true;
+        }
+      }
+      if (!isGoose) {
+      result[i] = birds[j];
+      i++;
+      }
+    }
+    return result;
+    
+    // return birds.filter(item => !geese.includes(item));
+  };
