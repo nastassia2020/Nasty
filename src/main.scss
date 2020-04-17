@@ -193,6 +193,7 @@ input:checked ~ .description-formen{
 .news{
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -431,4 +432,16 @@ input:checked ~ .description-formen{
   border: none;
   padding: 7px 20px;
   cursor: pointer;
+}
+
+@media (max-width:768px) {
+	.article,
+	.article_products{
+		width: 50%;
+	}
+	
+	.about-article,
+	.about-map{
+		width: 100%;
+	}
 }
