@@ -195,6 +195,7 @@ input:checked ~ .description-formen{
 	flex-direction: row;
 	width: 100%;
 	margin: 0 auto;
+	flex-wrap: wrap;
 }
 .article{
 	width: 31%;
@@ -233,6 +234,7 @@ input:checked ~ .description-formen{
 	display: flex;
 	flex-direction: row;
 	width: 100%;
+	flex-wrap: wrap;
 }
 .popular_products{
 	margin-bottom: 60px;
@@ -248,7 +250,6 @@ input:checked ~ .description-formen{
 .article_products{
 	width: 25%;
 	box-sizing: border-box;
-	margin-left: 7px;
 }
 .wrap-card{
 	position: relative;
@@ -323,6 +324,7 @@ input:checked ~ .description-formen{
 	margin-bottom: 60px;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	width: 100%;
 }
 .about-article{
