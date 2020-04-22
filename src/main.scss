@@ -123,11 +123,14 @@ body {
 .menu-opener{
 	display:none;
 }
+.menu{
+	display: flex;
+	flex-direction: row;
+}
 .menu.is-active{
 	display: flex;
 }
 .menu li{
-	display: inline-block;
 	text-transform: uppercase;
 	margin-right: 30px;
 	font-size: 0.9em;
