@@ -445,9 +445,14 @@ input:checked ~ .description-formen{
 }
 
 @media (max-width:768px) {
-	.article,
+	.article{
+		width: 70%;
+	}
 	.article_products{
 		width: 50%;
+	}
+	.news{
+		justify-content: center;
 	}
 	
 	.about-article,
@@ -458,14 +463,17 @@ input:checked ~ .description-formen{
 		display:block;
 		cursor: pointer;
 		padding: 5px;
+		margin-right: 300px;
 	}
 
 	.menu{
 		position: absolute;
 		left: 50px;
-		top: calc(100% + 7px);
+		top: 20%;
 		flex-direction: column;
+		background: rgba($color: white, $alpha: 0.9);
 		display: none;
+		z-index: 9;
 	}
 	.menu li{
 	 margin: 7px;
