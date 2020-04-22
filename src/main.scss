@@ -448,4 +448,20 @@ input:checked ~ .description-formen{
 	.about-map{
 		width: 100%;
 	}
+	.menu-opener{
+		display:block;
+		cursor: pointer;
+		padding: 5px;
+	}
+
+	.menu{
+		position: absolute;
+		left: 50px;
+		top: calc(100% + 7px);
+		flex-direction: column;
+		display: none;
+	}
+	.menu li{
+	 margin: 7px;
+	}
 }
