@@ -123,6 +123,9 @@ body {
 .menu-opener{
 	display:none;
 }
+.menu.is-active{
+	display: flex;
+}
 .menu li{
 	display: inline-block;
 	text-transform: uppercase;
