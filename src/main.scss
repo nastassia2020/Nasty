@@ -120,6 +120,9 @@ body {
 	display: flex;
 	flex-direction: row;
 }
+.menu-opener{
+	display:none;
+}
 .menu li{
 	display: inline-block;
 	text-transform: uppercase;
