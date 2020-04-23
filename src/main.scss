@@ -205,10 +205,10 @@ input:checked ~ .description-formen{
 	width: 100%;
 	margin: 0 auto;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .article{
-	width: 31%;
-	margin: 15px;
+	width: 33%;
 }
 .news-img{
 	width: 100%;
